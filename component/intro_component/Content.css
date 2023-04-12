@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+
+
+.content-component-container {		
+	color: #131316;
+	font-family: 'Schibsted Grotesk', sans-serif;
+	text-align: center;
+	padding-top: 1.4rem;
+	padding-bottom: 1.2rem;	
+	padding-left: 30rem;
+	padding-right: 30rem;
+	margin-top: 13rem;
+}
+
+.left-contents {
+	background-color: #ffffff;	
+	padding: 3rem;
+	margin: 5rem;
+}
+
+.content-title {
+	font-size: 40px;
+	margin-bottom: 1.5rem;
+}
+
+.content-contents {	
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	color: #000000;
+}

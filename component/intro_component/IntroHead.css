@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.back-image {
+	background: #ffffff;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.71), rgba(36, 36, 44, 65)), url("./image/head-palgong.jpg");
+	width: 100%;
+	height: 1200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.back-opacity {
+	width: 100%;
+	height: 1200px;
+	padding-top: 15rem;
+	padding-bottom: 20rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
+
+.head-container {
+	padding-left: 30rem;
+	padding-right: 30rem;
+}
+
+.head-title {
+	font-family: 'Jua', sans-serif;
+	padding-bottom: 48px;
+	padding-top: 40px;
+}
+
+h2 {
+	text-align: center;
+	color: #000000;
+}

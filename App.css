@@ -1,0 +1,194 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100%;
+}
+
+.App {
+	text-align: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.contents-container {
+	margin-left: 23rem;
+	margin-right: 23rem;
+	border: 1px;
+}
+
+
+.contents-detail-contents {
+	width: 70%;
+	float: right;
+	margin-top: 2rem;
+	box-sizing: border-box;
+	padding-bottom: 10rem;
+	transition: margin-left 0.4s;
+	flex: 1 1 auto;
+	min-width: 0;
+	font-size: 1.6rem;
+}
+
+.contents-detail-snb {
+	width: 13%;
+	float: left;
+	padding-right: 40px;
+	top: 0;
+	position: fixed;	
+	justify-content: flex-start;
+	margin-top: 10rem;
+}
+
+.snb-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.snb-list {
+	color: #000000;
+}
+
+.detail-section {
+	padding: 3rem 0;
+}
+
+.detail-section .section-title {
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: -0.03em;
+}
+
+.detail-section .section-body {
+	margin-top: 2rem;
+	font-size: 1rem;
+}
+
+.section-body p,
+.text-detail {
+	line-height: 1.75;
+	letter-spacing: -0.05em;
+}
+
+.detail-meta {
+	display: flex;
+	flex-direction: row;
+}
+
+.detail-meta .meta-image-wrap {
+	flex: 0 0 10rem;
+	margin-right: 3rem;
+}
+
+
+.meta-image-wrap .meta-caption {
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
+	padding-left: 1.6rem;
+	position: relative;
+	letter-spacing: -0.03em;
+}
+
+.detail-meta .meta-contents-wrap {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.meta-contents-wrap .meta-head {
+	margin-bottom: 2.5rem;
+}
+
+.meta-head .category-wrap {
+	margin-right: 2rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0.5rem;
+}
+
+.meta-head .meta-title {
+	font-size: 1.4rem;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0.5rem;
+	letter-spacing: -0.03em;
+}
+
+.open-button-style {
+	background: white;
+	display: inline;
+}
+
+.wrap-container {
+	height: auto;	
+	min-height: 100%;
+}
+
+.map {	
+	width: 2000px;
+	height: 1000px;
+}
+
+.start {
+	opacity: 0;
+}
+
+.end {
+	opacity: 1;
+	transition: opactiy 0.5s;
+}
+
+.fade {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.show {
+	opacity: 1;
+	transition: opacity 0.7s;
+}

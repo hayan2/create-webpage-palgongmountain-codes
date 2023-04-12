@@ -1,0 +1,11 @@
+body {
+	background-color: #24242c;
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+
+.body-contents-container {
+	padding-top: 10rem;
+	padding-bottom: 20rem;
+}
