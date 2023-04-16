@@ -1,0 +1,14 @@
+.card-container {
+	margin-left: 25rem;
+	margin-right: 25rem;
+	margin-bottom: 10rem;	
+}
+
+.card-content-container {
+	margin-top: 4rem;
+	transition: all 0.2s linear;
+}
+
+.card-content-container:hover {
+	transform: scale(1.05);
+}
