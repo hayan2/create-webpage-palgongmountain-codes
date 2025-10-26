@@ -1,3 +1,3 @@
 # create-webpage-palgongmountain-codes
 
-2023 copyright hayan
+2023 copyright
